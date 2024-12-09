@@ -1,0 +1,27 @@
+To effectively answer the question about missing a deadline in Terraform and AWS, you should demonstrate your ability to take ownership of the situation, address challenges, and implement solutions. Here's how you can structure your response:
+
+Response Framework
+1. Acknowledge the Scenario
+Provide a specific example that is relatable to Terraform and AWS.
+Example:
+"In one project, I was responsible for provisioning an infrastructure in AWS using Terraform for a production workload. Due to a misalignment between the application team’s requirements and the Terraform configurations, the deployment deadline was missed."
+
+2. Analyze the Cause
+Explain the root cause of the delay in a clear and concise manner.
+Example:
+"The delay occurred because the application team updated their requirements, which included a change in the networking setup (VPC and subnets). This update was communicated late, and the Terraform configuration had to be modified and tested thoroughly to avoid issues in production."
+
+3. Detail the Actions Taken
+Highlight the steps you took to address the problem.
+Example:
+"Once I realized the change was required, I immediately scheduled a meeting with the application team to understand their updated requirements in detail. I worked closely with the DevOps team to implement the new configurations, particularly updating the VPC CIDR blocks, route tables, and security group rules in Terraform. To ensure the changes were safe, I tested them in a staging environment before applying them to production."
+
+4. Showcase the Solution and Outcome
+Describe how you resolved the situation and minimized the impact.
+Example:
+"Although we missed the initial deadline by two days, we successfully deployed the updated infrastructure without any issues. The solution not only met the new requirements but also improved the resilience of the networking configuration. Additionally, I documented the changes to streamline future updates."
+
+5. Highlight Preventive Measures
+Explain what you learned and how you adapted to prevent future issues.
+Example:
+"To avoid such scenarios in the future, I implemented a process where all infrastructure requirement changes must be finalized before starting the deployment. Additionally, I integrated a change approval workflow using Terraform Cloud and AWS Service Catalog to better handle late-stage modifications. This has significantly improved the coordination between teams and reduced deployment delays."
